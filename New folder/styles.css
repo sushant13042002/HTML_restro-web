@@ -1,0 +1,136 @@
+/*General work*/
+
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    background-color: #edefee;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 3rem 5% 3rem 5%;
+}
+h1
+{
+    font-size: 3rem;
+}
+h3
+{
+    font-size: 2rem;
+}
+
+/*header work*/
+
+header img
+{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+/*nav-bar work*/
+
+nav ul
+{
+    list-style: none;
+    text-align: center;
+}
+nav li
+{
+    display: inline-block;
+}
+nav
+{
+    background-color: #333333;
+    font-size: 30px;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+nav a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+/*main work*/
+
+section
+{
+    display: flex;
+}
+article
+{
+    flex: 1;
+}
+#pasta
+{
+    width: 100%;
+    border-radius: 20px;
+    padding: 3px;
+}
+.container
+{
+    position: relative;
+}
+#top_left
+{
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    color: white;
+}
+#bottom_left
+{
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    right: 300px;
+    color: white;
+}
+.bottom_section
+{
+    align-items: center;
+}
+.bottom_section img
+{
+    width: 80%;
+}
+.bottom_section article
+{
+    background-color: #f4e5d6;
+    margin: 10px;
+    border-radius: 20px;
+}
+.bottom h3, img, p, table, a
+{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 40px;
+}
+
+/*footer work*/
+
+footer
+{
+    display: flex;
+    margin-top: 20px;
+}
+footer div
+{
+    flex: 1;
+}
+div img
+{
+    height: 100px;
+}
+#copyright
+{
+    text-align: right;
+    margin-top: 2px solid #333333;
+}
